@@ -35,13 +35,13 @@
         margin-right: 30px;
         margin-left: 20px;
         color:darkslategray;
+        padding-top: 30px;
     }
 
     .main-body-section {
         background-color: white;
         color:darkslategray;
         margin-top: 30px;
-        padding-bottom: 30px;
     }
 
     p {
@@ -52,21 +52,8 @@
         padding-left: 50px;
     }
 
-    .my-contact-links {
-        background-color: white;
-        padding-left: 20px;
-        margin-top: 30px;
-    }
-
     textarea {
         width: 400px;
-    }
-
-    h3 {
-        border-bottom: 2px rgba(3, 117, 247, 0.877) solid;
-        padding-bottom: 27px;
-        width: 98.5%;
-        margin-left: 5px;
     }
 
     .my-form {
@@ -74,11 +61,22 @@
         margin-left: 20px;
     }
 
+    .my-contact-links {
+        background-color: white;
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+
+    h3 {
+        border-bottom: 2px rgba(3, 117, 247, 0.877) solid;
+        padding-bottom: 27px;
+        width: 95%;
+        padding-top: 30px;
+    }
+
     .contact-imgs {
-        padding-left: 10px;
-        margin-left:40px;
-        margin-top: 10px;
-        padding-right: 10px;
+        margin-top: 30px;
+        padding-right: 20px;
     }
 
     .my-footer {
@@ -120,47 +118,49 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-8 main-body-section">
-                <h2>Contact</h2>
-                <div class="my-form">
-                    Name
-                    <br>
-                    <input type="text" class="form-control" placeholder="John Smith">
-                    <br>
-                    Email
-                    <br>
-                    <input type="text" class="form-control" placeholder="example@gmail.com">
-                    <br>
-                    Message
-                    <br>
-                    <textarea class="form-control" rows="10"></textarea>
-                    <br>
-                    <button type="button" class="btn btn-primary">Submit</button>
+            <div class="col-sm-12 col-md-8">
+                <div class="main-body-section">
+                    <h2>Contact</h2>
+                    <div class="my-form">
+                        Name
+                        <br>
+                        <input type="text" class="form-control" placeholder="John Smith">
+                        <br>
+                        Email
+                        <br>
+                        <input type="text" class="form-control" placeholder="example@gmail.com">
+                        <br>
+                        Message
+                        <br>
+                        <textarea class="form-control" rows="10"></textarea>
+                        <br>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
                 </div>
             </div>
 
-            <div class="pull-right col-sm-12 col-md-4  my-contact-links">
-                <h3>Contact Me</h3>
-                <div class="row contact-imgs">
-                    <div class="contact-me">
-                        <div class="col-sm-4 col-md-4 contact-img">
+            <div class="pull-right col-sm-12 col-md-4">
+                <div class="my-contact-links">
+                    <h3>Contact Me</h3>
+                    <div class="row contact-imgs">
+                        <div class="col-sm-2 col-md-4 contact-img">
                             <a href="https://github.com/aricci1024" class="thumbnail">
                                 <img src="assets/imgs/if_github_square_black_107109.png">
                             </a>
                         </div>
                     
-                        <div class="col-sm-4 col-md-4 contact-img">
+                        <div class="col-sm-2 col-md-4 contact-img">
                             <a href="https://www.linkedin.com/in/alexander-ricci-37664a67/" class="thumbnail">
                                 <img src="assets/imgs/if_linkedin_square_color_107091.png">
                             </a>
                         </div>
                         
-                        <div class="col-sm-4 col-md-4 contact-img">
+                        <div class="col-sm-2 col-md-4 contact-img">
                             <a href="https://stackoverflow.com/users/9114693/alexander-ricci" class="thumbnail">
                                 <img src="assets/imgs/if_stackoverflow-2048-black_167631.png">
                             </a>
-                        </div>          
-                    </div>   
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
