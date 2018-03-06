@@ -16,6 +16,10 @@
         font-size: 17px;
         color:darkslategray;
     }
+    
+    .my-header {
+        z-index: 99;
+    }
 
     .header {
         margin-top: -20px;
