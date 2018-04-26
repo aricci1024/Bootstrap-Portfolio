@@ -100,10 +100,33 @@
         margin-left:2%;
         margin-top:30px;
         margin-bottom:30px;
+        margin-left: 20px;
     }
 
     .row1 {
         padding-left: 2%;
+    }
+
+    .proj-type {
+        border-bottom: 2px rgba(3, 117, 247, 0.877) solid;
+        padding-bottom: 15px;
+        margin-right: 250px;
+        margin-left: 220px;
+        color:darkslategray;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    h4 {
+        color:darkslategray;
+    }
+
+    h5 {
+        color:darkslategray;
+        line-height: 200%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-left: 40px;
     }
 
     /* contact */
